@@ -1,0 +1,14 @@
+some important instructions regarding type casting of both implicit and explicit type
+1. there is no ob.nextChar() method and so char cant be taken as input
+be careful about making that mistake
+2. String cannot be converted to char
+3. some important ascii values:
+    A-Z uppercase = 65-90
+    a-z lowercase = 97-122
+    0-9 = 48-57
+    space = 32
+    symbols = 33-47 (even space is a symbol)
+4. Type casting works automatically as wide casting while moving from primitive
+to non-primitive data. Example: char to int and int to double. In the second example,
+the compiler will automatically convert the int to double but double doesnt get converted 
+to int automatically but instead needs explicit type casting.
